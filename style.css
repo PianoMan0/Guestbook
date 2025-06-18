@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+.guestbook-container {
+    max-width: 600px;
+    background: #fff;
+    margin: 40px auto;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+}
+h1, h2 {
+    margin-top: 0;
+}
+.guestbook-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+.guestbook-form input, .guestbook-form textarea {
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.guestbook-form button {
+    align-self: flex-start;
+    padding: 8px 18px;
+    background: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.guestbook-form button:hover {
+    background: #005fa3;
+}
+.messages {
+    margin-top: 20px;
+}
+.message {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+.meta {
+    font-size: 0.95em;
+    color: #666;
+    margin-bottom: 4px;
+}
+.meta .date {
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+.text {
+    font-size: 1.06em;
+}
+.error {
+    color: #b00;
+    margin-bottom: 12px;
+}
